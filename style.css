@@ -1,0 +1,246 @@
+
+
+
+/* Initial menu */
+
+.menu {
+  background: #202024;
+  left: -285px;  /* start off behind the scenes */
+  height: 100%;
+  position: fixed;
+  width: 285px;
+}
+
+
+
+
+
+
+
+/* Basic styling */
+
+.jumbotron {
+  background-image: url('Colin2.jpg'); 
+  height: 80%;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+		/* background-size: cover; */
+    background-position:  center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+/* Menu */
+.menu ul {
+  /* border-top: 1px solid #636366; */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  border-bottom: 1px solid #636366;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 3px;
+}
+
+.menu a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.menu  a:hover {
+    font-size:18;
+}
+
+.icon-close {
+  cursor: pointer;
+  padding-left: 220px;
+  padding-top: 10px;
+}
+
+.icon-menu {
+  color: solid #636366;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-menu i {
+  margin-right: 5px;
+}
+
+
+
+
+/* Main Body below header */
+.home-text {
+	color: black;
+	cursor: pointer;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+}
+
+.intro{
+	text-align: center;
+    letter-spacing: -1px;
+}
+
+.menu-options h3{
+	text-align: center;
+}
+
+
+
+/*   Bio   */
+.bio{
+    text-align: left;
+    background: #F0FFFF;
+    padding-left:  15%;
+    padding-right: 15%;
+}
+
+
+
+/*   Skills   */
+.Skills{
+    text-align: left;
+    background: #F0FFFF;
+    padding-left:  15%;
+    padding-right: 15%;
+}
+
+.Skills-image {
+  background-image: url('skills.jpg'); 
+  height: 30%;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+		/* background-size: cover; */
+    background-position:  center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+/*   Recent Positions   */
+
+.RecentPositions{
+    text-align:    left;
+    background: #F0FFFF;
+    padding-left:   15%;
+    padding-right:  15%;
+    
+}
+
+.column-left{ 
+    float: left; 
+    width:  33%; 
+    min-width : 280px;
+}
+
+.column-center{ 
+    display: inline-block; 
+    width:            33%; 
+    min-width : 280px;
+}
+
+.column-right{ 
+    display: inline-block; 
+    width:   33%; 
+    min-width : 280px;
+}
+
+
+
+
+/*   CV   */
+
+.cv{
+    text-align: left;
+    background: #F0FFFF;
+    padding-left:  15%;
+    padding-right: 15%;
+}
+
+.cv a{
+    color: inherit; 
+}
+
+
+
+/*  Contact */
+
+.Contact{
+    color: #fff;
+    text-align: left;
+    background: #f08080;
+}
+
+.Contact a { 
+    color: inherit; 
+} 
+
+.menu-options h3{
+	font-family: serif;
+	font-style: italic;
+}
+
+.menu-options  a:hover {
+	font-size: 30px;
+}
+
+
+
+/*  EMAIL   */
+.email{
+    color: black;
+	cursor: pointer;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+/* Back To Top */
+.back-to-top{
+    color: #fff;
+    background: #ababab;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: inherit;
+    padding-top: 5px;
+    padding-bottom:5px;
+}
+
+ul.bact-to-top{
+    list-style: none;
+}
+
+a.bact-to-top{
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+
+
+
+
+
